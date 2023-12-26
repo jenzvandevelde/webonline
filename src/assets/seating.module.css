@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+.movie-container {
+  margin: 20px 0;
+  margin-top: 250px;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+.seat {
+  background-color: #444451;
+  height: 26px;
+  width: 32px;
+  margin: 3px;
+  font-size: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.seat.sold {
+  background-color: #fff;
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat:not(.sold):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.sold):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+/* seating.module.css */
+
+/* seating.module.css */
+
+/* CSS */
+/* CSS */
+/* CSS */
+.screen {
+  background-color: #fff;
+  height: 120px;
+  width: 40%; /* Adjust the width to your desired value */
+  margin: 0 auto; /* Center horizontally */
+  transform: rotateX(-48deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin-top: 50px;
+  text-align: center; /* Center text horizontally */
+  font-size: 20px; /* Adjust font size as needed */
+  position: relative; /* Add relative positioning to create stacking context */
+  z-index: 0; /* Set a lower z-index */
+  line-height: 120px; /* Ensure enough space for the text */
+}
+
+.screentext {
+  color: black;
+  position: absolute; /* Add absolute positioning */
+  top: 50%; /* Move it to the vertical center */
+  left: 50%; /* Move it to the horizontal center */
+  transform: translate(-50%, -50%); /* Center it precisely */
+  z-index: 1; /* Ensure it's in the foreground */
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: 200;
+}
+
+
+  
+  
+
+p.text {
+  margin: 5px 0;
+  color: white;
+}
+
+p.text span {
+  color: rgb(158, 248, 158);
+}
+
+.seatingplan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.seatingplan .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.seatingplan .seat {
+  width: 30px;
+  height: 30px;
+  background-color: #444451;
+  margin: 0 5px;
+  font-size: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seatingplan .seat.selected {
+  background-color: green;
+}
+
+.seatingplan .seat.sold {
+  background-color: #fff;
+}
+
+.seatingplan .seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seatingplan .seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seatingplan .seat:not(.sold):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.seatingplan .showcase .seat:not(.sold):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    margin-left: 10px;
+  }
+  
+  /* And the rest of your CSS for seat styling, showcase, and text */
+  /* Voeg deze CSS-regels toe aan je stijlblad, bijvoorbeeld seating.module.css */
+
+/* Stijl de <ul> met een maximale breedte van 200px */
+ul.showcase {
+  max-width: 200px;
+  margin-left: 400px;
+}
+
+/* Voeg verdere stijling toe aan de <li> elementen als dat nodig is */
+ul.showcase li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Stijl de <div> binnen de <li> elementen */
+ul.showcase li div.seat {
+  width: 20px; /* Pas de breedte van de stoel aan zoals gewenst */
+  height: 20px; /* Pas de hoogte van de stoel aan zoals gewenst */
+  margin-right: 10px;
+}
+
+/* Stijl de <small> binnen de <li> elementen */
+ul.showcase li small {
+  font-size: 14px; /* Pas de lettergrootte aan zoals gewenst */
+}
+.screen{
+  margin-top: -95px;
+  margin-left: 550px;
+}
+.seatingplan{
+  margin-left: 440px;
+}
+
+.seatinglineup{
+
+  margin-left: 500px;
+}
+/* Voeg deze CSS-regels toe aan je stijlblad, bijvoorbeeld seating.module.css */
+
+/* Stijl voor de container van de seatinglineup */
+
+
+/* Stijl voor de <ul> binnen de seatinglineup */
+ul.showcase {
+  list-style: none; /* Verwijder de opsommingstekens van de lijst */
+  padding: 0; /* Verwijder standaardlijstvulling */
+  margin: 0; /* Verwijder standaardlijstmarge */
+  display: flex; /* Laat de lijstitems naast elkaar staan */
+  align-items: center; 
+  margin-left: 100px;
+}
+
+/* Stijl voor de <li> elementen binnen de seatinglineup */
+ul.showcase li {
+  margin-right: 20px; /* Voeg wat ruimte toe tussen de lijstitems */
+  display: flex; /* Laat de lijstitems naast elkaar staan */
+  align-items: center; 
+  margin-top: -200px;/* Verticaal centreren van lijstitems */
+}
+
+/* Stijl de <div> binnen de <li> elementen */
+ul.showcase li div.seat {
+  width: 20px; /* Pas de breedte van de stoel aan zoals gewenst */
+  height: 20px; /* Pas de hoogte van de stoel aan zoals gewenst */
+  margin-right: 10px; /* Voeg wat ruimte toe tussen de stoel en de tekst */
+}
+
+/* Stijl de <small> binnen de <li> elementen */
+ul.showcase li small {
+  font-size: 14px; /* Pas de lettergrootte aan zoals gewenst */
+  font-weight: bold; /* Optioneel: maak de tekst vetgedrukt */
+}
+.movieInfo img{
+  margin-left: 100px;
+  margin-bottom:-350px;
+  width: 290px;
+  border-radius: 10px;
+}
+
+.movieInfo p{
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 30px;
+}
+.orderingbutton button{
+  margin-left: 450px;
+}
+/* CSS */
+.orderingbutton {
+  background-color: #007bff; /* Background color */
+  color: white; /* Text color */
+  padding: 10px 100px; /* Padding: 10px top and bottom, 50px left and right */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underlines for links */
+  display: inline-block; /* Make the button an inline block element */
+  margin-left: 640px; /* Adjust margin as needed */
+  transition: background-color 0.3s ease; 
+  margin-top: 20px;
+}
+
+.orderingbutton:hover {
+  background-color: #0056b3; /* Background color on hover */
+}
